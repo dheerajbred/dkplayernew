@@ -4,7 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.SurfaceTexture;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.Surface;
 import android.view.TextureView;
 import android.view.View;

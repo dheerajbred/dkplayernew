@@ -74,12 +74,12 @@ dependencies {
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.2'
     releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.2'
     debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.2'
-    implementation "com.android.support:recyclerview-v7:$project.supportLibraryVersion"
+    implementation "androidx.recyclerview:recyclerview:1.0.0"
     implementation 'com.github.bumptech.glide:glide:3.7.0'
     implementation 'com.yanzhenjie.permission:support:2.0.1'
     implementation 'com.github.ctiao:DanmakuFlameMaster:0.9.25'
     implementation 'com.github.ctiao:ndkbitmap-armv7a:0.9.21'
-    implementation "com.android.support:design:$project.supportLibraryVersion"
+    implementation "com.google.android.material:material:1.0.0"
 
     //缓存
     implementation 'com.danikula:videocache:2.7.1'
